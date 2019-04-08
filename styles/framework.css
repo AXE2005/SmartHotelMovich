@@ -567,7 +567,7 @@ sup{top: -15px;} sub{bottom: 0px;}
 
 .gradient-body-1{background-image: linear-gradient(180deg, #000000 0%, #0a0a0ac7 100%);}
 .gradient-body-2{background-image: linear-gradient(180deg, #E96A57 0%, #C15140 100%); }
-.fondo{background-image:url(../images/m-bg.png);}
+.fondo{background-image:url(../images/bgmulti.png);}
 .gradient-body-3{background-image: linear-gradient( -180deg, #6eb148, #2d7335);}
 .gradient-body-4{background-image: linear-gradient(-180deg, #188FB6, #0F5F79);}
 .gradient-body-5{background-image: linear-gradient(180deg, #673c58, #492D3D);}
