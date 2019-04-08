@@ -79,8 +79,36 @@ Wifientertainment SAS - By Alejandro Osorio 2015-2018
 <gap:splash src="splash.png" gap:platform="android" gap:density="xxhdpi"/>
 <gap:splash src="splash.png" gap:platform="android" gap:density="xxxhdpi"/>
 
-<access origin="*" />
+
 <allow-navigation href="*" />
+
 <allow-intent href="*" />
+
+<!-- Allow links to web pages to open in a browser -->
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+
+<!-- Allow SMS links to open messaging app -->
+<allow-intent href="sms:*" />
+ 
+<!-- Allow tel: links to open the dialer -->
+<allow-intent href="tel:*" />
+ 
+<!-- Allow geo: links to open maps -->
+<allow-intent href="geo:*" />
+ 
+<!-- Enable requests to content: URLs -->
+<access origin="content:///*" />
+ 
+<access origin="http://*/*" />
+    <access origin="https://*/*" />
+    <access launch-external="yes" origin="tel:*" />
+    <access launch-external="yes" origin="geo:*" />
+    <access launch-external="yes" origin="mailto:*" />
+    <access launch-external="yes" origin="sms:*" />
+    <access launch-external="yes" origin="market:*" />
+    
+    <!-- Don't block any requests -->
+<access origin="*" />
 
 </widget>
